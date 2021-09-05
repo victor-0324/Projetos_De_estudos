@@ -1,0 +1,225 @@
+@charset "UTF-8";
+*{
+    margin:0;
+    padding: 0;
+}
+body {
+    background-image :url('../imagens_usar/e9c222704491b64ee31efc8b150f2478.png');
+   font-family:Arial, Helvetica, sans-serif;
+   margin-top:40px ;
+}
+
+
+.registroformulario
+{
+    width: 800px;
+    color:rgba(201, 140, 214, 0.924);
+    margin: auto;
+    padding:20px,30px ;
+    text-align:center;
+    
+   
+}main
+{
+   background-color: rgba(36, 38, 39, 0.678);
+   width:850px;
+   margin:auto;
+   padding: 20px 30px ;
+   margin-top: 10vh;
+   border-radius: 15px;
+   text-align:justify;
+}
+
+.forn
+{
+    padding: 10px;
+}
+#nome
+{
+    width: 120px;
+    height: 100px;
+   top:800px;
+}
+.nome
+{
+   
+    margin-top: 50px;
+    width: 125px;
+    color:rgba(201, 140, 214, 0.924);
+    font-size:20px ;
+    font-weight: 700px;
+}
+
+.primeironome
+{
+position:relative;
+left: 150px;
+top: 50px;
+line-height:35px;
+border-radius: 6px;
+padding: 0,22px;
+font-size: 19px;
+}
+.sobrenome
+{
+    position: relative;
+    left: 424px;
+    top: -18px;
+    line-height:35px;
+    border-radius: 6px;
+    padding: 0,2px;
+    font-size: 19px; 
+ 
+}
+.primeirolabel
+{
+    position: relative;
+    color:rgb(66, 110, 172);
+    text-transform:initial;
+    font-size: 25px;
+    left:230px;
+    top: -35px;
+}
+.sobrenomelabel
+{
+position:relative;
+color:rgb(71, 118, 185);
+text-transform:initial;
+font-size: 25px;
+left: 470px;
+top: -103px;
+}
+
+.Empresa
+{
+    position:relative;
+    left: 150px;
+    top: -37;
+    line-height: 40px;
+    width: 498px;
+    border-radius: 6px;
+    padding: 0,22px;
+    font-size: 16px;
+    color: rgba(26, 25, 25, 0.89);
+}
+.email
+{
+    position: relative;
+    left: 147px;
+    top: -37;
+    line-height: 40px;
+    width: 498px;
+    border-radius: 6px;
+    padding: 0,22px;
+    font-size: 16px;
+    color: rgba(26, 25, 25, 0.89);
+}
+
+.opções
+{
+    position: relative;
+    right: -144px;
+    top: -20px;
+    line-height: 40px;
+    width: 508px;
+    height:45px ;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: black;
+    outline:nome;
+    overflow: hidden;
+}
+.opções option 
+{
+    font-size: 20px;
+}
+
+.radio
+{
+    display: inline-block;
+    padding: right,70px;
+    font-size: 25px;
+    margin-left:25px ;
+    margin-top: 15px;
+    color: bisque;
+    right: -145px;
+    top: -20px;
+}
+.radio input
+{
+    width: 20px;
+    height: 20px;
+    border-radius: 50;
+    cursor: pointer;
+    outline: nome;
+}
+.Codigo
+{
+    position: relative;
+    right:170px;
+    top: 118px;
+    line-height:30px;
+    width: 50px;
+    border-radius: 6px;
+    padding: 2 10px;
+    font-size: 16px;
+    color: rgba(26, 25, 25, 0.89);
+}
+.number
+{
+    position: relative;
+   right: 200px;
+    top: 118px;
+    line-height: 30px;
+    width: 160px;
+    border-radius: 6px;
+    padding: 0 30px;
+    font-size: 16px;
+    color: rgba(168, 57, 57, 0.89);
+}
+.Codigo_area
+{
+    position: relative;
+    color: rgb(68, 83, 168);
+    text-transform:capitalize;
+    font-size: 18px;
+   right:230px;
+    top:80px;
+}
+.numero-telefone
+{
+    position: relative;
+    color: rgb(68, 83, 168);
+    text-transform: unset;
+    font-size: 22px;
+    left: 520px;
+    top:35px ;
+}
+input:fous {
+    border-bottom: 2px solid #08558b ;
+}
+#forgot-pass{
+    text-align: right;
+    display: block;
+}
+input[type="submit"]{
+    text-align:center;
+    text-transform: uppercase;
+    font-weight:bold;
+    border:none;
+    height: 50px;
+    border-radius:20px ;
+    margin-top: 30px;
+    color:rgb(6, 28, 58);
+    background-color: #08558b;
+    cursor:auto;
+}
+input[type="submit"]:hover{
+background-color: #18223c;
+transition: .5s;
+}
+/* registra*/ 
+#register-container p {
+    margin-bottom:10px;
+}

@@ -7,7 +7,7 @@ import requests
 import pandas as pd
 from bs4 import BeautifulSoup  
 from datetime import datetime
-now = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
+now = datetime.now().strftime("%d/%m/%Y")
 print(f"Current time: {now}") 
 
 
@@ -40,7 +40,7 @@ with open("jogo_do_bicho2.csv", "a", encoding='utf-8') as ficheiro:
         writer.writerow(csv_row)    
 print(csv_row) 
 
-now = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
+now = datetime.now().strftime("%d/%m/%Y")
 print(f"Current time: {now}")
         
 
